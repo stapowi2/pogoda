@@ -3,7 +3,7 @@ from aiogram.dispatcher.filters import Text
 from main import *
 import json
 
-bot = Bot(token='7189801995:AAGSQmcGr4cP9KUMZWh66hNWsUkHBoY2gg0')
+bot = Bot(token='')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands='start')
